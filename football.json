@@ -1,0 +1,74 @@
+{
+  "players": [
+    {
+      "id": 1,
+      "nom": "SALIBA",
+      "prenom": "WILLIAM",
+      "poste": "Défenseur",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/a2a75c6902654c92596e6413f9752393.png?twic=v1/focus=131x79/cover=748x582"
+    },
+    {
+      "id": 2,
+      "nom": "LECOMTE",
+      "prenom": "BENJAMIN",
+      "poste": "Gardien de but",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/5887611de9c1dc52de21252e6a64d873.png?twic=v1/focus=164x46/cover=748x582"
+    },
+    {
+      "id": 3,
+      "nom": "SIDIBÉ",
+      "prenom": "DJIBRIL",
+      "poste": "Défenseur",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/d2b0471f624a8643d112cb26b221c593.png?twic=v1/focus=139x43/cover=380x296"
+    },
+    {
+      "id": 4,
+      "nom": "BAKAYOKO",
+      "prenom": "TIÉMOUÉ",
+      "poste": "Milieu de terrain",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/30b0e2ab4ebb0222a180bd366cfc81a2.png?twic=v1/focus=187x98/cover=748x582"
+    },
+    {
+      "id": 5,
+      "nom": "GUENDOUZI",
+      "prenom": "MATTEO",
+      "poste": "Milieu de terrain",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/3b7d3ce8b2b5268fe85b6718ac1916a2.png?twic=v1/focus=1244x779/cover=748x582"
+    },
+    {
+      "id": 6,
+      "nom": "MATUIDI",
+      "prenom": "BLAISE",
+      "poste": "Milieu de terrain",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/eac80762c84a57a6b462c6a2f55609c5.png?twic=v1/focus=186x135/cover=748x582"
+    },
+    {
+      "id": 7,
+      "nom": "M'VILA",
+      "prenom": "YANN",
+      "poste": "Milieu de terrain",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/abf22b6824e1612a5434e57a939d74a1.png?twic=v1/focus=183x202/cover=748x582"
+    },
+    {
+      "id": 8,
+      "nom": "GONALONS",
+      "prenom": "MAXIME",
+      "poste": "Milieu de terrain",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/b213d93b991bec0d3567927af8ac90fc.png?twic=v1/focus=1624x710/cover=748x582"
+    },
+    {
+      "id": 9,
+      "nom": "RAMI",
+      "prenom": "ADIL",
+      "poste": "Défenseur",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/d454450bd2d9241380bea5cd0643dfaf.png?twic=v1/focus=189x129/cover=748x582"
+    },
+    {
+      "id": 18,
+      "nom": "RAMI",
+      "prenom": "ADIL",
+      "poste": "Défenseur",
+      "image": "https://fff.twic.pics/https://media.fff.fr/uploads/images/d454450bd2d9241380bea5cd0643dfaf.png?twic=v1/focus=189x129/cover=748x582"
+    }
+  ]
+}

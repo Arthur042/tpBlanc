@@ -1,0 +1,11 @@
+<mat-card *ngIf="player" class="example-card">
+    <mat-card-header>
+      <mat-card-title>{{ player.prenom }} {{ player.nom }}</mat-card-title>
+      <mat-card-subtitle>{{ player.poste }}</mat-card-subtitle>
+    </mat-card-header>
+    <img mat-card-image src="{{ player.image }}" alt="Photo of a Shiba Inu">
+    <mat-card-actions>
+        <button mat-raised-button color="accent" [routerLink]="['/player', player.id]">Voir le détail</button>
+        <button *ngIf="player.id" mat-raised-button color="warn" (click)="delete(player.id)">Supprimer</button>
+    </mat-card-actions>
+</mat-card>

@@ -1,0 +1,16 @@
+div{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+mat-card {
+    width: 350px;
+    margin: auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,27 @@
+<h1>Joueurs sélectionnés en Équipe de France</h1>
+
+<div id="displayBody">
+    <!-- guardien -->
+    <div id="card" *ngFor="let player of playersGuardian">
+        <app-card [player]="player"></app-card>
+    </div>
+
+    <!-- defenseur -->
+    <div id="card" *ngFor="let player of playerDedfenseurs">
+        <app-card [player]="player"></app-card>
+    </div>
+
+    <!-- millieu de terrain -->
+    <div id="card" *ngFor="let player of playersMiddle">
+        <app-card [player]="player"></app-card>
+    </div>
+
+    <!-- attaquant -->
+    <div id="card" *ngFor="let player of playersAttack">
+        <app-card [player]="player"></app-card>
+    </div>
+
+    <button *ngIf="numberPlayer" [routerLink]="['/ajouter']" [disabled]="numberPlayer >= 23" mat-fab color="accent" aria-label="Example icon button with a plus one icon">
+        <mat-icon>plus_one</mat-icon>
+      </button>
+</div>

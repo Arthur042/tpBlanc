@@ -1,0 +1,36 @@
+<div>
+  <mat-card>
+    <form #valideForm="ngForm" (submit)="addPlayer()">
+      <!-- prenom joueur -->
+      <mat-form-field appearance="fill">
+        <mat-label>Prénom</mat-label>
+        <input matInput name="prenom" id="prenom" [(ngModel)]="playerToAdd.prenom" #prenom="ngModel" required>
+      </mat-form-field>
+
+      <!-- nom joueur -->
+      <mat-form-field appearance="fill">
+        <mat-label>Nom</mat-label>
+        <input matInput name="nom" id="nom" [(ngModel)]="playerToAdd.nom" #nom="ngModel" required>
+      </mat-form-field>
+
+      <!-- image joueur -->
+      <mat-form-field appearance="fill">
+        <mat-label>Photo du joueur</mat-label>
+        <input matInput name="image" id="image" [(ngModel)]="playerToAdd.image" #image="ngModel" required>
+      </mat-form-field>
+
+      <!-- poste joueur -->
+      <mat-form-field appearance="fill">
+        <mat-label>Poste</mat-label>
+        <mat-select name="poste" id="poste" [(ngModel)]="playerToAdd.poste" #poste="ngModel" required>
+          <mat-option value="Guardien">Guardien</mat-option>
+          <mat-option value="Attaquant">Attaquant</mat-option>
+          <mat-option value="Milieu de terrain">Milieu de terrain</mat-option>
+          <mat-option value="Défenseur">Défenseur</mat-option>
+        </mat-select>
+      </mat-form-field>
+
+      <button [disabled]="valideForm.invalid" mat-raised-button color="primary">Ajouter</button>
+    </form>
+  </mat-card>
+</div>
